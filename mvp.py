@@ -21,7 +21,7 @@ alinhamento_select = st.selectbox('Alinhamento', lista_alinhamento)
 genero_select = st.selectbox('Genero', lista_genero)
 api_key = st.text_input('API Key')
 
-gerador = GeradorMonstro(api_key)
+gerador = GeradorMonstro(api_key = api_key)
 
 if st.button('Gerar monstro'):
     gerador.montar_prompt(nome_input = nome_select,
