@@ -23,8 +23,8 @@ api_key = st.text_input('API Key')
 
 
 if st.button('Gerar monstro'):
-       gerador = GeradorMonstro(api_key = api_key)
-       gerador.montar_prompt(nome_input = nome_select,
+    gerador = GeradorMonstro(api_key = api_key)
+    gerador.montar_prompt(nome_input = nome_select,
                         raca_input = raca_select,
                         tamanho_input = tamanho_select,
                         alinhamento_input = alinhamento_select,
