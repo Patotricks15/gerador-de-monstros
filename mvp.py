@@ -32,4 +32,4 @@ if st.button('Gerar monstro'):
 
     st.markdown(gerador.gerar_descricao())
     st.markdown(gerador.gerar_imagem())
-    #st.markdown(gerador.gerar_imagem())
+    #st.markdown(gerador.gerar_resposta())
