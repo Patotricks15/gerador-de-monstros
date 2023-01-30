@@ -19,7 +19,9 @@ raca_select = st.selectbox('Raças', lista_racas)
 tamanho_select = st.selectbox('Tamanhos', lista_tamanho)
 alinhamento_select = st.selectbox('Alinhamento', lista_alinhamento)
 genero_select = st.selectbox('Genero', lista_genero)
-gerador = GeradorMonstro()
+api_key = st.text_input('API Key')
+
+gerador = GeradorMonstro(api_key)
 
 if st.button('Gerar monstro'):
     gerador.montar_prompt(nome_input = nome_select,
