@@ -8,7 +8,7 @@ class GeradorMonstro:
         openai.api_key = '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'
 
     def montar_prompt(self, genero_input, nome_input, raca_input, tamanho_input, alinhamento_input):
-        self.prompt = f"""Gere em pt-br a descrição longa de um monstro de RPG de mesa com as seguintes informações:
+        self.prompt = f"""Gere em pt-br a descrição longa e detalhada de um monstro de RPG de mesa com as seguintes informações:
                     Name: {nome_input}
                     Race: {raca_input}
                     Size: {tamanho_input}
