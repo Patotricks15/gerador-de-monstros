@@ -8,10 +8,7 @@ lista_racas = ['beast', 'dragon', 'humanoid', 'monstrosity', 'fiend', 'undead',
 lista_tamanho = ['Medium', 'Large', 'Huge', 'Tiny', 'Small', 'Gargantuan']
 
 lista_alinhamento = ['Unaligned', 'Chaotic Evil', 'Lawful Evil', 'Neutral Evil',
-       'Lawful Good', 'Neutral', 'Any Alignment', 'Chaotic Good', 'Neutral Good', 'Any Non-good Alignment',
-       'Chaotic Neutral', 'Lawful Neutral', 'Any Non-lawful Alignment',
-       'Any Chaotic Alignment', 'Any',
-       'Neutral Good (50%) Or Neutral Evil (50%)', 'Any Evil Alignment']
+       'Lawful Good', 'Chaotic Good', 'Neutral Good', 'True Neutral']
 lista_genero = ['male','female','Undefined']
 
 
